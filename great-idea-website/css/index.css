@@ -65,82 +65,115 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 
+body {
+	margin-left: auto;
+	margin-right: auto;
+	width: 1200px;
+}
+
 .navigation {
 	color: grey;
 	padding: 20px;
 	display:inline-block;
-	width: 80%;
+	text-align: center;
 }
 
-.navigation a{
+.navigation a {
 	color: grey;
 	padding: 20px;
 	text-decoration: none;
+	margin: 0px 25px;
 }
+ .logo {
+	 float: right;
+ }
+ /* * {
+	 width: 80%;
+	 margin: 0 auto;
+	 border: 1px solid black;
+ } */
+/* Your code starts here! */
+
 header {
 	font-size: 500%;
-	display:inline-block;
-	margin-before: 0.5em;
-    margin-after: 0.5em;
-    margin-start: auto;
-    margin-end: auto;
-    overflow: hidden;
-    border-style: inset;
-    border-width: 1px;
+	/* border: 1px solid black; */
 }
-	margin-end: auto;
-	border-width: 1px;
+.head {
+    /* display: flex; */
+    border-bottom: 1px solid black;
+    padding-bottom: 50px;
+    padding-left: 250px;
+	/* border: 1px solid black; */
+	width: 100%;
 }
-
-header img {
-	display:inline-block;
-	float: right;
-	width: 20%;
+.left-header {
+	/* border: 1px solid black; */
+	display: inline-block;
+    width: 45%;
 }
-
+    
+.top-content {
+    padding: 50px;
+	/* margin: 20px; */
+	/* border: 1px solid black; */
+    /* display: flex; */
+}
+.top-content-section{
+	flex-basis: 30%;
+	/* border: 1px solid black; */
+	display: inline-block;
+	width: 40%;
+}
+.top-content p {
+    width: 100%;
+	margin-bottom: 30px;
+	/* border: 1px solid black; */
+}
+.bottom-content {
+    padding: 50px;
+	/* margin: 20px; */
+	/* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+}
+.bottom-content-section {
+	flex-basis: 30%;
+	/* border: 1px solid black; */
+}
 button {
-	border-block-end: 0px;
-	font-size:20%;
-	font-family: 'Titillium Web';
+    font-size:20%;
+    font-family: 'Titillium Web';
+    margin-left: 90px;
+    margin-right: auto;
+	margin-top: 0px;
+	border: 1px solid black;
+	background: white;
+	width: 150px;
 }
-
 h1 {
-	font size: 500%;
-	padding: 30px;
-	width: 100px;
-	height: 100px;
-	box-sizing: border-box;
+    font-size: 100%;
+    text-align: center;
+    /* width: 100%; */
+    margin-right: 100px;
+	margin-top: 60px;
+	/* border: 1px solid black; */
 }
-
-header {
-	display: inline-block;
+.middle-img {
+	padding-left: 200px;
+	/* border: 1px solid black; */
 }
-
-header h4 {
-	display: inline-block;
-  }
-
-.top-content1 {
-	display: inline-block;
-	font size: 500%;
-	padding: 30px;
-	width: 500px;
-	height: 50px;
-	box-sizing: border-box;
+footer {
+    margin-top: 25px;
+	text-align: center;
+	/* border: 1px solid black; */
 }
-.top-content2 {
-	display: inline-block;
-	font size: 500%;
-	padding: 30px;
-	width: 500px;
-	height: 50px;
-	box-sizing: border-box;
+.contact {
+    margin-left: 75px;
+    border-top: 1px solid black;
+	padding-top: 50px;
+	/* border: 1px solid black; */
 }
-
-.middle img {
-	padding: 70px;
-	margin: 5px;
-	border: 10px;
+.contact-paragraph {
+	margin-bottom: 50px;
+	/* border: 1px solid black; */
 }
-git commit -a -m 'CSS'
-
